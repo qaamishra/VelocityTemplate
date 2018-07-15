@@ -1,0 +1,6 @@
+Java Public Variable from getter method
+$JavaObjectTest.profession
+
+Java Public Method
+#set ($name=$JavaObjectTest.getTheName())
+Return from java method ==> $name

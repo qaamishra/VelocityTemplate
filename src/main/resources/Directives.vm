@@ -1,0 +1,24 @@
+#set( $startrow = 5)
+    #set( $count = $startrow + 5 )
+    final value ==> $count
+
+#if($value>5)
+       bigger
+     #elseif( $value < 5 )
+       smaller
+     #else
+       just right
+     #end
+
+##
+#set($divide = $value / 2)
+Division result = $divide
+
+
+
+##
+
+#set($rangeValues = [0..10])
+ #foreach($val in $rangeValues)
+    $val
+#end

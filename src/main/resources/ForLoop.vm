@@ -1,0 +1,10 @@
+Hello $CustomerName,
+
+There are $fruitList.size() wide range of fruits are in stock currently.
+  Please find the list below to choose from :
+
+  #foreach( $fruit in $fruitList )
+    Fruit Name ==> $fruit.name ||   Price ==> $fruit.price
+  #end
+
+For queries please write us at $email
